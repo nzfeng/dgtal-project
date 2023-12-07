@@ -71,8 +71,8 @@ add_subdirectory(deps/polyscope)
 
 set(DGtal_DIR "${CMAKE_BINARY_DIR}/../cmake/")
 FIND_PACKAGE(DGtal REQUIRED)
-INCLUDE_DIRECTORIES(${DGTAL_INCLUDE_DIRS})
-LINK_DIRECTORIES(${DGTAL_LIBRARY_DIRS})
+#INCLUDE_DIRECTORIES(${DGTAL_INCLUDE_DIRS})
+#LINK_DIRECTORIES(${DGTAL_LIBRARY_DIRS})
 message(STATUS "DGTAL_INCLUDE_DIRS: ${DGTAL_INCLUDE_DIRS}")
 message(STATUS "DGTAL_LIBRARY_DIRS: ${DGTAL_LIBRARY_DIRS}")
 message(STATUS "DGTAL_LIBRARIES: ${DGTAL_LIBRARIES}")
@@ -89,4 +89,5 @@ target_include_directories(main PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include/")
 
 # add the args.hxx project which we use for command line args
 target_include_directories(main PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/deps/polyscope/deps/args")
+target_include_directories(main PUBLIC "${DGTAL_INCLUDE_DIRS}")
 target_link_libraries(main polyscope DGtal)
