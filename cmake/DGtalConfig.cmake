@@ -154,6 +154,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${DGTAL_CMAKE_DIR}/Modules")
 #### Required dependencies  ####
 find_dependency(Boost REQUIRED
   HINTS "/opt/homebrew/lib/cmake/Boost-1.82.0"
+  "/opt/homebrew/Cellar/boost/1.83.0"
   )
 find_dependency(ZLIB REQUIRED
   # NO_HINTS (no ZLIB_DIR or ZLIB_DIR-NOTFOUND)
