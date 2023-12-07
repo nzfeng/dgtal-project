@@ -1,0 +1,174 @@
+CMakeFiles/main.dir/src/main.cpp.o:(.data+0x38): multiple definition of `stbi_write_tga_with_rle'
+CMakeFiles/main.dir/src/object.cpp.o:(.data+0x38): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_failure_reason':
+main.cpp:(.text+0x19780): multiple definition of `stbi_failure_reason'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x178c0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_image_free':
+main.cpp:(.text+0x19790): multiple definition of `stbi_image_free'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x178d0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_set_flip_vertically_on_load':
+main.cpp:(.text+0x197a0): multiple definition of `stbi_set_flip_vertically_on_load'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x178e0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_set_flip_vertically_on_load_thread':
+main.cpp:(.text+0x197b0): multiple definition of `stbi_set_flip_vertically_on_load_thread'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x178f0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load_gif_from_memory':
+main.cpp:(.text+0x197d0): multiple definition of `stbi_load_gif_from_memory'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x17910): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_is_hdr_from_memory':
+main.cpp:(.text+0x19b30): multiple definition of `stbi_is_hdr_from_memory'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x17c70): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_is_hdr':
+main.cpp:(.text+0x19ce0): multiple definition of `stbi_is_hdr'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x17e20): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_is_hdr_from_file':
+main.cpp:(.text+0x19dd0): multiple definition of `stbi_is_hdr_from_file'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x17f10): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_is_hdr_from_callbacks':
+main.cpp:(.text+0x19ea0): multiple definition of `stbi_is_hdr_from_callbacks'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x17fe0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_ldr_to_hdr_gamma':
+main.cpp:(.text+0x19f50): multiple definition of `stbi_ldr_to_hdr_gamma'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x18090): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_ldr_to_hdr_scale':
+main.cpp:(.text+0x19f60): multiple definition of `stbi_ldr_to_hdr_scale'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x180a0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_hdr_to_ldr_gamma':
+main.cpp:(.text+0x19f70): multiple definition of `stbi_hdr_to_ldr_gamma'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x180b0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_hdr_to_ldr_scale':
+main.cpp:(.text+0x19f90): multiple definition of `stbi_hdr_to_ldr_scale'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x180d0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_zlib_decode_malloc_guesssize':
+main.cpp:(.text+0x19fb0): multiple definition of `stbi_zlib_decode_malloc_guesssize'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x180f0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_zlib_decode_malloc':
+main.cpp:(.text+0x1a080): multiple definition of `stbi_zlib_decode_malloc'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x181c0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_zlib_decode_malloc_guesssize_headerflag':
+main.cpp:(.text+0x1a090): multiple definition of `stbi_zlib_decode_malloc_guesssize_headerflag'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x181d0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load_from_file':
+main.cpp:(.text+0x20c60): multiple definition of `stbi_load_from_file'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1ec80): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load_from_memory':
+main.cpp:(.text+0x20d70): multiple definition of `stbi_load_from_memory'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1ed90): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load_from_callbacks':
+main.cpp:(.text+0x20e10): multiple definition of `stbi_load_from_callbacks'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1ee30): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_loadf_from_memory':
+main.cpp:(.text+0x211e0): multiple definition of `stbi_loadf_from_memory'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1f200): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_loadf_from_callbacks':
+main.cpp:(.text+0x21280): multiple definition of `stbi_loadf_from_callbacks'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1f2a0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_loadf_from_file':
+main.cpp:(.text+0x21350): multiple definition of `stbi_loadf_from_file'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1f370): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_loadf':
+main.cpp:(.text+0x21430): multiple definition of `stbi_loadf'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1f450): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load':
+main.cpp:(.text+0x21550): multiple definition of `stbi_load'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1f570): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load_from_file_16':
+main.cpp:(.text+0x218e0): multiple definition of `stbi_load_from_file_16'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1f900): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load_16':
+main.cpp:(.text+0x219f0): multiple definition of `stbi_load_16'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1fb80): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load_16_from_memory':
+main.cpp:(.text+0x21b30): multiple definition of `stbi_load_16_from_memory'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1fa10): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_load_16_from_callbacks':
+main.cpp:(.text+0x21ff0): multiple definition of `stbi_load_16_from_callbacks'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x1fab0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_zlib_decode_buffer':
+main.cpp:(.text+0x22c10): multiple definition of `stbi_zlib_decode_buffer'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20610): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_zlib_decode_noheader_malloc':
+main.cpp:(.text+0x22cb0): multiple definition of `stbi_zlib_decode_noheader_malloc'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x206b0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_zlib_decode_noheader_buffer':
+main.cpp:(.text+0x22d80): multiple definition of `stbi_zlib_decode_noheader_buffer'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20780): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_set_unpremultiply_on_load':
+main.cpp:(.text+0x22e20): multiple definition of `stbi_set_unpremultiply_on_load'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20820): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_convert_iphone_png_to_rgb':
+main.cpp:(.text+0x22e30): multiple definition of `stbi_convert_iphone_png_to_rgb'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20830): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi__unpremultiply_on_load_thread(int)':
+main.cpp:(.text+0x22e40): multiple definition of `stbi__unpremultiply_on_load_thread(int)'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20840): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_convert_iphone_png_to_rgb_thread':
+main.cpp:(.text+0x22e60): multiple definition of `stbi_convert_iphone_png_to_rgb_thread'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20860): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_info':
+main.cpp:(.text+0x22e80): multiple definition of `stbi_info'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20880): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_info_from_file':
+main.cpp:(.text+0x22fb0): multiple definition of `stbi_info_from_file'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x209b0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_is_16_bit':
+main.cpp:(.text+0x230a0): multiple definition of `stbi_is_16_bit'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20aa0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_is_16_bit_from_file':
+main.cpp:(.text+0x231b0): multiple definition of `stbi_is_16_bit_from_file'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20bb0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_info_from_memory':
+main.cpp:(.text+0x23280): multiple definition of `stbi_info_from_memory'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20c80): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_info_from_callbacks':
+main.cpp:(.text+0x23310): multiple definition of `stbi_info_from_callbacks'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20d10): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_is_16_bit_from_memory':
+main.cpp:(.text+0x233e0): multiple definition of `stbi_is_16_bit_from_memory'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20de0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_is_16_bit_from_callbacks':
+main.cpp:(.text+0x235b0): multiple definition of `stbi_is_16_bit_from_callbacks'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x20fb0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_flip_vertically_on_write':
+main.cpp:(.text+0x23790): multiple definition of `stbi_flip_vertically_on_write'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x21190): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_bmp_to_func':
+main.cpp:(.text+0x237a0): multiple definition of `stbi_write_bmp_to_func'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x211a0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_bmp':
+main.cpp:(.text+0x23820): multiple definition of `stbi_write_bmp'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x21220): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_tga_to_func':
+main.cpp:(.text+0x238d0): multiple definition of `stbi_write_tga_to_func'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x212d0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_tga':
+main.cpp:(.text+0x23950): multiple definition of `stbi_write_tga'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x21350): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_hdr_to_func':
+main.cpp:(.text+0x23a00): multiple definition of `stbi_write_hdr_to_func'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x21400): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_hdr':
+main.cpp:(.text+0x23a90): multiple definition of `stbi_write_hdr'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x21490): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_zlib_compress':
+main.cpp:(.text+0x23b60): multiple definition of `stbi_zlib_compress'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x21560): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_png_to_mem':
+main.cpp:(.text+0x24980): multiple definition of `stbi_write_png_to_mem'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x22380): first defined here
+CMakeFiles/main.dir/src/main.cpp.o:(.data+0x34): multiple definition of `stbi_write_force_png_filter'
+CMakeFiles/main.dir/src/object.cpp.o:(.data+0x34): first defined here
+CMakeFiles/main.dir/src/main.cpp.o:(.data+0x3c): multiple definition of `stbi_write_png_compression_level'
+CMakeFiles/main.dir/src/object.cpp.o:(.data+0x3c): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_png':
+main.cpp:(.text+0x24fb0): multiple definition of `stbi_write_png'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x229b0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_png_to_func':
+main.cpp:(.text+0x25060): multiple definition of `stbi_write_png_to_func'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x22a60): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_jpg_to_func':
+main.cpp:(.text+0x250e0): multiple definition of `stbi_write_jpg_to_func'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x22ae0): first defined here
+CMakeFiles/main.dir/src/main.cpp.o: In function `stbi_write_jpg':
+main.cpp:(.text+0x25180): multiple definition of `stbi_write_jpg'
+CMakeFiles/main.dir/src/object.cpp.o:object.cpp:(.text+0x22b80): first defined here
