@@ -67,7 +67,7 @@ else()
   message( FATAL_ERROR "Unrecognized compiler [${CMAKE_CXX_COMPILER_ID}]" )
 endif()
 
-add_subdirectory(../../Forks/geometry-central deps/geometry-central)
+FIND_PACKAGE(Eigen3 REQUIRED)
 
 set(DGtal_DIR "${CMAKE_BINARY_DIR}/../cmake/")
 FIND_PACKAGE(DGtal REQUIRED)
@@ -85,4 +85,4 @@ set(SRCS
 
 add_executable(main "${SRCS}")
 target_include_directories(main PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include/")
-target_link_libraries(main geometry-central "${DGTAL_LIBRARIES}")
+target_link_libraries(main "${DGTAL_LIBRARIES}")

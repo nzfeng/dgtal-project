@@ -46,7 +46,7 @@ add_library(DGtal STATIC IMPORTED)
 
 set_target_properties(DGtal PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "BOOST_ALL_NO_LIB;WITH_EIGEN=true;UNIX;UNIX"
-  INTERFACE_INCLUDE_DIRECTORIES "/usr0/home/nfeng/Documents/Projects/common-deps/deps/DGtal/src;/usr0/home/nfeng/Documents/Projects/common-deps/deps/DGtal/build/src;/usr/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/usr0/home/nfeng/Documents/Forks/DGtal/src;/usr0/home/nfeng/Documents/Forks/DGtal/build/src;/usr/include"
   INTERFACE_LINK_LIBRARIES "ZLIB::ZLIB;rt"
 )
 
@@ -54,7 +54,7 @@ set_target_properties(DGtal PROPERTIES
 set_property(TARGET DGtal APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(DGtal PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "/usr0/home/nfeng/Documents/Projects/common-deps/deps/DGtal/build/libDGtal.a"
+  IMPORTED_LOCATION_NOCONFIG "/usr0/home/nfeng/Documents/Forks/DGtal/build/libDGtal.a"
   )
 
 # This file does not depend on other imported targets which have
@@ -123,7 +123,7 @@ add_library(DGtal STATIC IMPORTED)
 
 set_target_properties(DGtal PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "BOOST_ALL_NO_LIB;WITH_EIGEN=true;UNIX;APPLE;UNIX;APPLE"
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/tigress/Documents/Projects/common-deps/deps/DGtal/src;/Users/tigress/Documents/Projects/common-deps/deps/DGtal/build/src;/opt/homebrew/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/tigress/Documents/Projects/Forks/DGtal/src;/Users/tigress/Documents/Projects/Forks/DGtal/build/src;/opt/homebrew/include"
   INTERFACE_LINK_LIBRARIES "ZLIB::ZLIB"
 )
 
@@ -131,7 +131,7 @@ set_target_properties(DGtal PROPERTIES
 set_property(TARGET DGtal APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(DGtal PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "/Users/tigress/Documents/Projects/common-deps/deps/DGtal/build/libDGtal.a"
+  IMPORTED_LOCATION_NOCONFIG "/Users/tigress/Documents/Projects/Forks/DGtal/build/libDGtal.a"
   )
 
 # This file does not depend on other imported targets which have
