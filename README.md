@@ -11,4 +11,5 @@ make -j8
 ```
 
 ## Attempts
-* Using `cmake -DNO_ADD_STBIMAGE_IMPLEMENT=Off ..` or `cmake -DNO_ADD_STBIMAGE_IMPLEMENT=On ..` doesn't work
+* Using `cmake -DNO_ADD_STBIMAGE_IMPLEMENT=Off ..` or `cmake -DNO_ADD_STBIMAGE_IMPLEMENT=On ..` doesn't seem to help (maybe not the right definitions?)
+* Defining static works (https://github.com/nothings/stb/issues/1429)
